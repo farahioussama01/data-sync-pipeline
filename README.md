@@ -59,12 +59,12 @@ docker-compose up --build
 
 Once running, the following services are available:
 
-| Service | Local | Description |
+| Service | Port | Description |
 |---|---|---|
-| Dashboard | `http://localhost:8501` | Streamlit monitoring UI |
-| Webhook API | `http://localhost:8000` | FastAPI event receiver |
-| API Docs | `http://localhost:8000/docs` | Interactive Swagger UI |
-| PostgreSQL | `localhost:5432` | Relational database |
+| Dashboard | `:8501` | Streamlit monitoring UI |
+| Webhook API | `:8000` | FastAPI event receiver |
+| API Docs | `:8000/docs` | Interactive Swagger UI |
+| PostgreSQL | `:5432` | Relational database |
 
 ### Deploy to a VPS / cloud server
 
